@@ -153,8 +153,8 @@ with col1:
     input_sms = st.text_area("Enter the message:", st.session_state.input_sms, placeholder="Type your email or SMS here...")
 
     # Show a button to display an example
-    if st.button("Show Example"):
-        st.session_state.input_sms = "Congratulations! You've won a $1000 gift card. Click here to claim now!"
+    # if st.button("Show Example"):
+    #     st.session_state.input_sms = "Congratulations! You've won a $1000 gift card. Click here to claim now!"
 
     # Predict button
     predict_button = st.button("Predict")
