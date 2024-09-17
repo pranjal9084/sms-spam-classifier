@@ -66,6 +66,10 @@ nltk.download('stopwords')
 
 ps = PorterStemmer()
 
+st.set_page_config(
+    page_title="Spam Classifier"
+)
+
 def transform_text(text):
     text = text.lower()  # Convert to lowercase
     text = nltk.word_tokenize(text)  # Tokenize
