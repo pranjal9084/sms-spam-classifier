@@ -62,3 +62,6 @@ streamlit run app.py
 
 
 👉 [Click here to try the app](https://spamclassifier-1.streamlit.app/)
+
+
+### Made with ❤️ by Pranjal Gupta
